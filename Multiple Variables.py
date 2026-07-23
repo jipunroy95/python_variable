@@ -166,3 +166,17 @@ def update():
 update()
 
 print(count)
+
+total = 0
+
+
+def add():
+    global total
+    total += 2
+
+
+add()
+add()
+add()
+
+print(total)
