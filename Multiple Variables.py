@@ -180,3 +180,16 @@ add()
 add()
 
 print(total)
+
+# ছোট Quiz 😊
+count = 5
+
+
+def test():
+    global count
+    count += 10
+
+
+test()
+test()
+print(count)
